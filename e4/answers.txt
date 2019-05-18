@@ -1,0 +1,4 @@
+1, yes daily temperatures are not a good way to predict population density.  
+They are not a good way since the way the data predicted are not correct
+
+2. json data is reitten in javascript which is slower than c libraty

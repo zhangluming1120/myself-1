@@ -1,0 +1,12 @@
+export PYSPARK_PYTHON=python3
+export PATH=${PATH}:/home/fred/spark-2.3.1-bin-hadoop2.7/bin
+
+xuetianw@gateway.sfucloud.ca
+
+scp -P 24
+
+ssh -p 24
+
+scp first_spark.py xuetianw@gateway.sfucloud.ca
+
+spark-submit first_spark.py /courses/353/xyz-2 output2

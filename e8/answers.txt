@@ -1,0 +1,10 @@
+1. Which model did the best for the colour-prediction task? Can you give a theory about why
+
+KNN classifier with the RGB-to-LAB conversion did the best for the colour prediction task.  This conclusion is drawn from the 6 tesing scores comparision: KNN classifier with RGB-to-LAB conversion  has the higest score.
+
+
+2. Have a look at the cities in your test data where the weather model makes the wrong prediction. Do you feel like the model is making reasonable mistakes? Can you think of any weather features that we could potentially add to make better predictions?
+
+I feel like the mistakes made by the model are reasonable.  Because the wrong predictions and ground-truth cities are geographically closed to each other, even it is hard for human to identify the correct results.  
+
+Wind strength is another factor for predictin weathers.

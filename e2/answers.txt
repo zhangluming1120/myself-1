@@ -1,0 +1,9 @@
+1. In the hint above, describe the values that are the result of data['timestamp']*fit.slope + fit.intercept? How is this calculated? 
+
+In order to let it fir into one line.  It has to form the formula y = mx + b;
+b is the fir intercept m is the slop and data['timestamp'] is the value on the x.
+
+
+2.In the same hint, why does this produce a fit line on the graph? Why are the created_at values and timestamp values paired correctly to make points on the plot? 
+
+because the slop and intercept has been calculated.  If the slop and intercept is fixed.  All the points calculated should be on one line.

@@ -2,14 +2,833 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b566d428-cc2f-4c6f-8759-ba1a84c6b6b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CMPT353.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CMPT353.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/numpy-timing-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/numpy-timing-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e1/monthdata.npz" beforeDir="false" afterPath="$PROJECT_DIR$/e1/monthdata.npz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e1/monthly_totals_hint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e1/timing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/e1/timing.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e10/answers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e10/reddit_averages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e10/wikipedia_popular.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/answers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/command" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/correlate_logs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/derby.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/e11draft.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/db.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/dbex.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/log/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/log/log.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/log/log1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/log/logmirror.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c10.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c101.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c111.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c121.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c130.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c141.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c150.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c161.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c171.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c180.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c191.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c1a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c1b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c1c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c1d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c1e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c1f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c200.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c211.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c221.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c230.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c241.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c251.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c260.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c271.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c281.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c290.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c2a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c2b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c2c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c2d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c2e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c2f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c300.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c31.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c311.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c321.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c331.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c340.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c351.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c361.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c371.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c380.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c391.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c3a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c3b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c3c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c3d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c3e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c3f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c400.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c41.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c411.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c421.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c430.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c441.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c451.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c461.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c470.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c481.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c490.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c4a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c4b0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c4c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c4d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c4e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c4f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c501.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c51.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c510.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c521.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c530.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c541.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c550.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c561.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c570.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c581.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c590.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c5a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c5b0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c5c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c5d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c5e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c5f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c60.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c601.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c610.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c621.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c630.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c641.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c650.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c661.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c670.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c681.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c690.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c6a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c6b0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c6c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c6d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c6e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c6f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c701.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c71.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c711.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c721.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c731.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c741.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c751.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c761.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c771.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c781.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c791.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c7a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c7b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c7c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c7d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c7e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c7f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c801.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c81.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c811.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c821.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c831.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c840.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c851.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c860.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c871.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c880.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c891.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c8a0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c8b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c8c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c8d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c8e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c8f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c90.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c901.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c911.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c920.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c931.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c940.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c951.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c960.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c971.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c981.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c990.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c9a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c9b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c9c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c9d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c9e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/c9f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/ca01.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/ca1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/ca11.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/ca21.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/cb1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/cc0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/cd1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/ce1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/seg0/cf0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/metastore_db/service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/nasa-logs-1/NASA_access_log_Aug95-part" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/nasa-logs-1/NASA_access_log_Aug95-part.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/nasa-logs-1/NASA_access_log_Jul95-part.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/.part-00000-2bb2f4d2-8b84-4ca7-ac9f-6ebd7b787d00-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/.part-00059-2bb2f4d2-8b84-4ca7-ac9f-6ebd7b787d00-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/.part-00074-2bb2f4d2-8b84-4ca7-ac9f-6ebd7b787d00-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/.part-00075-2bb2f4d2-8b84-4ca7-ac9f-6ebd7b787d00-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/.part-00123-2bb2f4d2-8b84-4ca7-ac9f-6ebd7b787d00-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/.part-00195-2bb2f4d2-8b84-4ca7-ac9f-6ebd7b787d00-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/part-00000-2bb2f4d2-8b84-4ca7-ac9f-6ebd7b787d00-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/part-00059-2bb2f4d2-8b84-4ca7-ac9f-6ebd7b787d00-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/part-00074-2bb2f4d2-8b84-4ca7-ac9f-6ebd7b787d00-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/part-00075-2bb2f4d2-8b84-4ca7-ac9f-6ebd7b787d00-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/part-00123-2bb2f4d2-8b84-4ca7-ac9f-6ebd7b787d00-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/output/part-00195-2bb2f4d2-8b84-4ca7-ac9f-6ebd7b787d00-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00000.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/.part-00000-ac76ecc8-164f-4d59-aee7-94b25f6110a8-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/.part-00014-ac76ecc8-164f-4d59-aee7-94b25f6110a8-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/.part-00096-ac76ecc8-164f-4d59-aee7-94b25f6110a8-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/.part-00131-ac76ecc8-164f-4d59-aee7-94b25f6110a8-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/.part-00175-ac76ecc8-164f-4d59-aee7-94b25f6110a8-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/.part-00184-ac76ecc8-164f-4d59-aee7-94b25f6110a8-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/part-00000-ac76ecc8-164f-4d59-aee7-94b25f6110a8-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/part-00014-ac76ecc8-164f-4d59-aee7-94b25f6110a8-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/part-00096-ac76ecc8-164f-4d59-aee7-94b25f6110a8-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/part-00131-ac76ecc8-164f-4d59-aee7-94b25f6110a8-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/part-00175-ac76ecc8-164f-4d59-aee7-94b25f6110a8-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00001.json.gz/part-00184-ac76ecc8-164f-4d59-aee7-94b25f6110a8-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00002.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00003.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00004.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00005.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00006.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00007.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00008.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/part-00009.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/reddit-1/part-00000.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/reddit-1/part-00001.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/reddit-1/part-00002.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/reddit-1/part-00003.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/reddit-1/part-00004.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/reddit-1/part-00005.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/reddit-1/part-00006.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/reddit-1/part-00007.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/reddit-1/part-00008.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit-1/reddit-1/part-00009.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/reddit_relative.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e11/xuetianw@gateway.sfucloud.ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/Untitled1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00000-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00001-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00002-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00003-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00004-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00005-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00006-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00007-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00008-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00009-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00010-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00011-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00012-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00013-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00014-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00015-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00016-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00017-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00018-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00019-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00020-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00021-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00022-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00023-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00024-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00025-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00026-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00027-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00028-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00029-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00030-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00031-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00032-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00033-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00034-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00035-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00036-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00037-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00038-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00039-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00040-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00041-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/.part-00042-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00000-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00001-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00002-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00003-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00004-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00005-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00006-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00007-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00008-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00009-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00010-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00011-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00012-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00013-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00014-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00015-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00016-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00017-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00018-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00019-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00020-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00021-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00022-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00023-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00024-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00025-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00026-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00027-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00028-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00029-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00030-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00031-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00032-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00033-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00034-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00035-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00036-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00037-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00038-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00039-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00040-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00041-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/out-word_count/part-00042-9e912fec-214a-44e8-bfbd-866498250c69-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00000-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00001-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00002-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00003-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00004-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00005-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00006-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00007-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00008-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00009-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00010-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00011-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00012-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00013-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00014-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00015-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00016-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00017-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00018-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00019-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00020-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00021-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00022-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00023-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00024-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00025-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00026-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00027-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00028-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00029-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00030-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00031-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00032-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00033-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00034-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00035-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00036-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00037-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00038-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00039-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00040-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00041-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/.part-00042-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00000-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00001-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00002-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00003-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00004-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00005-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00006-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00007-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00008-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00009-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00010-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00011-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00012-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00013-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00014-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00015-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00016-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00017-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00018-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00019-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00020-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00021-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00022-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00023-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00024-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00025-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00026-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00027-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00028-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00029-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00030-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00031-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00032-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00033-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00034-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00035-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00036-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00037-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00038-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00039-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00040-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00041-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/-word_count/part-00042-abd86b68-2a4f-4993-9c50-db5fef5598c4-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00000-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00001-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00002-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00003-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00004-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00005-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00006-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00007-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00008-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00009-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00010-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00011-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00012-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00013-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00014-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00015-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00016-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00017-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00018-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00019-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00020-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00021-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00022-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00023-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00024-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00025-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00026-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00027-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00028-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00029-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00030-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00031-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00032-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00033-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00034-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00035-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00036-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00037-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00038-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00039-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00040-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00041-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/.part-00042-4018736f-217b-4180-a45e-66258e78831a-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00000-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00001-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00002-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00003-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00004-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00005-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00006-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00007-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00008-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00009-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00010-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00011-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00012-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00013-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00014-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00015-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00016-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00017-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00018-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00019-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00020-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00021-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00022-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00023-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00024-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00025-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00026-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00027-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00028-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00029-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00030-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00031-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00032-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00033-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00034-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00035-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00036-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00037-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00038-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00039-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00040-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00041-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/output-word_count/part-00042-4018736f-217b-4180-a45e-66258e78831a-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/pup_inflation.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/pup_inflation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/wordcount-1/austen-persuasion.txt.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/wordcount-1/austen-sense.txt.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/wordcount-1/carroll-alice.txt.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e12/wordcount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/.idea/e2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/.ipynb_checkpoints/create_plots-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/.ipynb_checkpoints/dog-rates-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/answers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/create_plots.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/create_plots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/day1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/dog-rates-result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/dog-rates-results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/dog-rates.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/dog_rates_tweets.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/pagecounts-20160802-150000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/pagecounts-20160803-150000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/sample-wikipedia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2/tweet_dumper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/.idea/e3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/.ipynb_checkpoints/smooth_temperature-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/MyGPSFiles-out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/calc_distance.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/calc_distance_hint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/cpu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/smooth_temperature.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/smooth_temperature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/sysinfo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/walk1.gpx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e3/walk2.gpx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/.ipynb_checkpoints/smooth_temperature-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/.ipynb_checkpoints/temperature_correlation-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/Untitled1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/answers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/average_ratings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/city_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/movie_list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/movie_ratings.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/output.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/sample-output.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/smooth_temperature.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/stations.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/temp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/temperature_correlation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e4/temperature_correlation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e6/.idea/e6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e6/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e6/ab_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e6/searches.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/.ipynb_checkpoints/Untitled2-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/.ipynb_checkpoints/dog-rates-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/Untitled1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/Untitled2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/answers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/colour-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/colour_bayes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/dog-rates.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/dog_rates_tweets.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/predictions_lab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/predictions_rgb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/regress_cpu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/sysinfo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e7/test_errors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/.idea/e8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/.ipynb_checkpoints/Untitled2-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/Untitled1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/Untitled2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/answers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/clusters.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/colour-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/colour_predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/colour_predict_hint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/labels.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/monthly-data-labelled.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/monthly-data-unlabelled.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/predictions-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/predictions-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/predictions-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/predictions-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/predictions-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/predictions-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/sample-labels.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/sample2-labels.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/test_tftp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/weather_city.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/weather_clusters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e8/weather_clusters_hint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/.ipynb_checkpoints/Untitled2-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/Untitled1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/Untitled2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/answers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/cities.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/derby.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/first_spark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/db.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/dbex.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/log/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/log/log.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/log/log1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/log/logmirror.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c10.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c101.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c111.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c121.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c130.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c141.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c150.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c161.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c171.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c180.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c191.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c1a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c1b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c1c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c1d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c1e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c1f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c200.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c211.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c221.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c230.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c241.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c251.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c260.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c271.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c281.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c290.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c2a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c2b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c2c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c2d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c2e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c2f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c300.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c31.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c311.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c321.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c331.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c340.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c351.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c361.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c371.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c380.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c391.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c3a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c3b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c3c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c3d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c3e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c3f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c400.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c41.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c411.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c421.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c430.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c441.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c451.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c461.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c470.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c481.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c490.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c4a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c4b0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c4c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c4d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c4e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c4f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c501.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c51.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c510.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c521.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c530.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c541.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c550.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c561.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c570.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c581.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c590.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c5a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c5b0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c5c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c5d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c5e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c5f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c60.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c601.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c610.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c621.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c630.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c641.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c650.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c661.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c670.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c681.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c690.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c6a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c6b0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c6c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c6d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c6e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c6f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c701.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c71.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c711.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c721.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c731.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c741.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c751.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c761.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c771.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c781.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c791.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c7a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c7b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c7c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c7d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c7e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c7f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c801.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c81.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c811.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c821.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c831.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c840.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c851.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c860.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c871.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c880.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c891.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c8a0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c8b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c8c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c8d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c8e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c8f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c90.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c901.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c911.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c920.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c931.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c940.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c951.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c960.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c971.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c981.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c990.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c9a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c9b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c9c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c9d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c9e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/c9f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/ca01.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/ca1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/ca11.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/ca21.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/cb1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/cc0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/cd1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/ce1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/seg0/cf0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/metastore_db/service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/output/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/output/.part-00000-2e46cc3d-59cb-4c02-a72b-0633f4d6cf36-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/output/.part-00001-2e46cc3d-59cb-4c02-a72b-0633f4d6cf36-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/output/.part-00002-2e46cc3d-59cb-4c02-a72b-0633f4d6cf36-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/output/.part-00003-2e46cc3d-59cb-4c02-a72b-0633f4d6cf36-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/output/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/output/part-00000-2e46cc3d-59cb-4c02-a72b-0633f4d6cf36-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/output/part-00001-2e46cc3d-59cb-4c02-a72b-0633f4d6cf36-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/output/part-00002-2e46cc3d-59cb-4c02-a72b-0633f4d6cf36-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/output/part-00003-2e46cc3d-59cb-4c02-a72b-0633f4d6cf36-c000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/script to run spark" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/spark-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/spark-output/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/spark-output/.part-00000-05f980bc-de7a-4229-838e-477166b83c16-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/spark-output/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/spark-output/part-00000-05f980bc-de7a-4229-838e-477166b83c16-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/weather-1/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/weather-1/.part-00000-4f5d4e29-7d59-4af2-9ef6-f89c44d4dc71-c000.csv.gz.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/weather-1/.part-00001-4f5d4e29-7d59-4af2-9ef6-f89c44d4dc71-c000.csv.gz.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/weather-1/.part-00002-4f5d4e29-7d59-4af2-9ef6-f89c44d4dc71-c000.csv.gz.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/weather-1/.part-00003-4f5d4e29-7d59-4af2-9ef6-f89c44d4dc71-c000.csv.gz.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/weather-1/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/weather-1/part-00000-4f5d4e29-7d59-4af2-9ef6-f89c44d4dc71-c000.csv.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/weather-1/part-00001-4f5d4e29-7d59-4af2-9ef6-f89c44d4dc71-c000.csv.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/weather-1/part-00002-4f5d4e29-7d59-4af2-9ef6-f89c44d4dc71-c000.csv.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/weather-1/part-00003-4f5d4e29-7d59-4af2-9ef6-f89c44d4dc71-c000.csv.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/weather_etl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/weather_etl_hint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/xuetianw@gateway.sfucloud.ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/xyz-1/part-00000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/xyz-1/part-00001.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/xyz-1/part-00002.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e9/xyz-1/part-00003.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +854,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.70438796">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
@@ -83,21 +902,6 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb">
-              <provider selected="true" editor-type-id="jupyter-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/numpy-timing-checkpoint.ipynb">
-              <provider selected="true" editor-type-id="jupyter-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/numpy-examples-checkpoint.ipynb">
-              <provider selected="true" editor-type-id="jupyter-editor" />
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -106,6 +910,11 @@
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/e1/precipitation.csv">
+                  <provider selected="true" editor-type-id="csv-text-editor">
+                    <state relative-caret-position="120">
+                      <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+                    </state>
+                  </provider>
                   <provider editor-type-id="csv-table-editor">
                     <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
                       <column index="0" width="100" />
@@ -117,45 +926,19 @@
                       <column index="6" width="100" />
                     </state>
                   </provider>
-                  <provider selected="true" editor-type-id="csv-text-editor">
-                    <state relative-caret-position="120">
-                      <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-                    </state>
-                  </provider>
                 </entry>
               </file>
             </leaf>
           </split-first>
           <split-second>
-            <leaf>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/e1/totals.csv">
-                  <provider selected="true" editor-type-id="csv-table-editor">
-                    <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-                      <column index="0" width="100" />
-                      <column index="1" width="100" />
-                      <column index="2" width="100" />
-                      <column index="3" width="100" />
-                      <column index="4" width="100" />
-                      <column index="5" width="100" />
-                      <column index="6" width="100" />
-                      <column index="7" width="100" />
-                      <column index="8" width="100" />
-                      <column index="9" width="100" />
-                      <column index="10" width="100" />
-                      <column index="11" width="100" />
-                      <column index="12" width="100" />
-                    </state>
-                  </provider>
                   <provider editor-type-id="csv-text-editor">
                     <state relative-caret-position="105">
                       <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
                     </state>
                   </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/e1/counts.csv">
                   <provider selected="true" editor-type-id="csv-table-editor">
                     <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
                       <column index="0" width="100" />
@@ -173,7 +956,43 @@
                       <column index="12" width="100" />
                     </state>
                   </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/e1/counts.csv">
                   <provider editor-type-id="csv-text-editor" />
+                  <provider selected="true" editor-type-id="csv-table-editor">
+                    <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+                      <column index="0" width="100" />
+                      <column index="1" width="100" />
+                      <column index="2" width="100" />
+                      <column index="3" width="100" />
+                      <column index="4" width="100" />
+                      <column index="5" width="100" />
+                      <column index="6" width="100" />
+                      <column index="7" width="100" />
+                      <column index="8" width="100" />
+                      <column index="9" width="100" />
+                      <column index="10" width="100" />
+                      <column index="11" width="100" />
+                      <column index="12" width="100" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/e1/.ipynb_checkpoints/signal-plot-checkpoint.ipynb">
+                  <provider selected="true" editor-type-id="jupyter-editor" />
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/e1/.ipynb_checkpoints/timing-checkpoint.ipynb">
+                  <provider selected="true" editor-type-id="jupyter-editor" />
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/e1/timing.ipynb">
+                  <provider selected="true" editor-type-id="jupyter-editor" />
                 </entry>
               </file>
             </leaf>
@@ -228,22 +1047,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CMPT353" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CMPT353" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMPT353" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CMPT353" type="462c0819:PsiDirectoryNode" />
-              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -390,6 +1194,7 @@
       <workItem from="1558167603617" duration="36000" />
       <workItem from="1558167756262" duration="7000" />
       <workItem from="1558167912071" duration="13584000" />
+      <workItem from="1558185581026" duration="441000" />
     </task>
     <task id="LOCAL-00001" summary="finish pd_summary.py">
       <created>1558162405136</created>
@@ -430,7 +1235,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14440000" />
+    <option name="totallyTimeSpent" value="14881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,10 +1249,9 @@
   <component name="ToolWindowManager">
     <frame x="59" y="24" width="2498" height="1416" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11704731" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11786297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Jupyter" visible="true" weight="0.32977912" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901752" />
       <window_info anchor="bottom" x="741" y="236" width="1102" height="639" id="Run" order="2" sideWeight="0.49921095" weight="0.32444784" />
@@ -455,12 +1259,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49948025" weight="0.3274943" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49948025" visible="true" weight="0.3274943" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49948025" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50078905" side_tool="true" weight="0.31683168" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.499737" weight="0.32901752" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Jupyter" order="13" visible="true" weight="0.32977912" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -536,38 +1341,8 @@
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/pandas/core/frame.py" />
     <entry file="file://$PROJECT_DIR$/e2/.idea/dictionaries/fred.xml" />
     <entry file="file://$PROJECT_DIR$/Pandas.py" />
-    <entry file="file://$PROJECT_DIR$/e1/timing.ipynb" />
     <entry file="file://$PROJECT_DIR$/numpy-timing.ipynb" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e1/totals12312312312.csv">
-      <provider selected="true" editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-          <column index="0" width="100" />
-          <column index="1" width="100" />
-          <column index="2" width="100" />
-          <column index="3" width="100" />
-          <column index="4" width="100" />
-          <column index="5" width="100" />
-          <column index="6" width="100" />
-          <column index="7" width="100" />
-          <column index="8" width="100" />
-          <column index="9" width="100" />
-          <column index="10" width="100" />
-          <column index="11" width="100" />
-          <column index="12" width="100" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/e1/totals12312312312.csv" />
     <entry file="file://$PROJECT_DIR$/../anaconda3/lib/python3.6/idlelib/configdialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -579,24 +1354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="3842" selection-start-line="3842" selection-end-line="3842" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e1/precipitation.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-          <column index="0" width="100" />
-          <column index="1" width="100" />
-          <column index="2" width="100" />
-          <column index="3" width="100" />
-          <column index="4" width="100" />
-          <column index="5" width="100" />
-          <column index="6" width="100" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -638,73 +1395,14 @@
     <entry file="file://$PROJECT_DIR$/e1/monthly_totals.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/e1/monthly_totals_hint.py" />
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/numpy-timing-checkpoint.ipynb" />
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" />
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/numpy-examples-checkpoint.ipynb" />
     <entry file="file://$PROJECT_DIR$/e1/pd_summary.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e1/totals.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-          <column index="0" width="100" />
-          <column index="1" width="100" />
-          <column index="2" width="100" />
-          <column index="3" width="100" />
-          <column index="4" width="100" />
-          <column index="5" width="100" />
-          <column index="6" width="100" />
-          <column index="7" width="100" />
-          <column index="8" width="100" />
-          <column index="9" width="100" />
-          <column index="10" width="100" />
-          <column index="11" width="100" />
-          <column index="12" width="100" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e1/counts.csv">
-      <provider selected="true" editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-          <column index="0" width="100" />
-          <column index="1" width="100" />
-          <column index="2" width="100" />
-          <column index="3" width="100" />
-          <column index="4" width="100" />
-          <column index="5" width="100" />
-          <column index="6" width="100" />
-          <column index="7" width="100" />
-          <column index="8" width="100" />
-          <column index="9" width="100" />
-          <column index="10" width="100" />
-          <column index="11" width="100" />
-          <column index="12" width="100" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e1/np_summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e1/np_summary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -715,23 +1413,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e1/monthly_totals_hint.py">
+    <entry file="file://$PROJECT_DIR$/e1/np_summary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/numpy-timing-checkpoint.ipynb">
+    <entry file="file://$PROJECT_DIR$/e1/np_summary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e1/precipitation.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+          <column index="3" width="100" />
+          <column index="4" width="100" />
+          <column index="5" width="100" />
+          <column index="6" width="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e1/totals.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+          <column index="3" width="100" />
+          <column index="4" width="100" />
+          <column index="5" width="100" />
+          <column index="6" width="100" />
+          <column index="7" width="100" />
+          <column index="8" width="100" />
+          <column index="9" width="100" />
+          <column index="10" width="100" />
+          <column index="11" width="100" />
+          <column index="12" width="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e1/.ipynb_checkpoints/np_summary-checkpoint.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb">
+    <entry file="file://$PROJECT_DIR$/e1/counts.csv">
+      <provider editor-type-id="csv-text-editor" />
+      <provider selected="true" editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+          <column index="3" width="100" />
+          <column index="4" width="100" />
+          <column index="5" width="100" />
+          <column index="6" width="100" />
+          <column index="7" width="100" />
+          <column index="8" width="100" />
+          <column index="9" width="100" />
+          <column index="10" width="100" />
+          <column index="11" width="100" />
+          <column index="12" width="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e1/.ipynb_checkpoints/signal-plot-checkpoint.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/numpy-examples-checkpoint.ipynb">
+    <entry file="file://$PROJECT_DIR$/e1/.ipynb_checkpoints/timing-checkpoint.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e1/timing.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
   </component>

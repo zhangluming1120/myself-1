@@ -1,0 +1,11 @@
+1. 
+(1)For reddit-0, it took 10.940s for real time; user for 0m32.502s; sys for 0m0.719s
+(2)On reddit-2, with no chema and cahe, it taks 24.196s for real, 48.978s for user, 0.890s for sys
+(3)On reddit-2, with chema but no cahe, it takes 20.297s for real, 43.789s for user, 0.944s for sys
+(4)On reddit-2, with schema and cache, it takes 13.328s for real, 37.365s for user, 0.850s for sys
+
+2.
+According to my answer of under subsection(2)(3)(4) under question1, most of the time was spend on user.  User is the amount of CPU time spent in user-mode code (outside the kernel) within the process. This is only actual CPU time used in executing the process.  It means that calculating the averages took the most time rather than reading the files.
+
+3.
+I used cache right before the groupby, becasue it is used after the join

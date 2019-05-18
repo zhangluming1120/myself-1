@@ -1,0 +1,29 @@
+
+
+1
+In your reddit_relative.py, what intermediate results did you .cache()? Briefly describe what would have happened if you hadn't used .cache() anywhere. (No need to time it, unless you really want to.)
+
+In reddit_relative.py, as you see in the code I wrote in the file, I put cache in cache() in two places.  
+I put the first cache() for dataframe 'comments' on line 35.  The second time of using dataframe comments is on line 47.  If we had not used cache(), spark would have caculated the dataframe comments for the second time, which would take more time.
+
+ 
+I put second cache() when I get the final form of df_joined, which is on line 50 after calculating the 'el_score' colum.  If we had not used cache() df_joined, on line 59, spark would have to recaulculate df_joined, which would take more time
+ 
+
+
+2
+How did marking DataFrames for broadcast affect the running time of the “best author” program above?
+
+
+Boradcast used when we have a large data set and want to join a small table we just generated in Python.  I added Boradcast at the correct location and recorded the timing result, which is shown below.
+
+without broadcast
+real	0m44.566s
+user	0m38.524s
+sys	0m1.980s
+with broadcast
+real	0m40.825s
+user	0m37.336s
+sys	0m2.100s
+I have ran the code a coupld of times, the result shows that there is a difference of running time between running with broadbast and running without broadcast.  
+There is an obvious improvement of time efficiency when the broadcast is used.
