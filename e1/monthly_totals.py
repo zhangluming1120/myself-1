@@ -18,6 +18,16 @@ def pivot_months_pandas(data):
     This should use Pandas methods to manipulate the data.
     """
     # ...
+
+    data['month'] = data['date'].apply(date_to_month)
+    data = data.drop(columns=['station', 'latitude', 'longitude', 'elevation'])
+    monthly = data.groupby(['name', 'month']).sum().reset_index()
+    monthly = monthly.pivot(index='name', columns='month', values='precipitation')
+    # print(monthly)
+
+    counts = data.groupby(['name', 'month']).count().reset_index()
+    counts = counts.pivot(index='name', columns='month', values='precipitation')
+
     return monthly, counts
 
 
@@ -78,11 +88,11 @@ def pivot_months_loops(data):
 
 def main():
     data = get_precip_data()
-    totals, counts = pivot_months_loops(data)
+    # totals, counts = pivot_months_loops(data)
+    totals, counts = pivot_months_pandas(data)
     totals.to_csv('totals.csv')
     counts.to_csv('counts.csv')
     np.savez('monthdata.npz', totals=totals.values, counts=counts.values)
-
 
 if __name__ == '__main__':
     main()
